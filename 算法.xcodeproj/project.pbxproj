@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6417DC472638FD0400611765 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6417DC462638FD0400611765 /* main.swift */; };
-		6417DC502638FD2B00611765 /* 斐波那契数列.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6417DC4E2638FD2B00611765 /* 斐波那契数列.swift */; };
-		6417DC512638FD2B00611765 /* 动态数组.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6417DC4F2638FD2B00611765 /* 动态数组.swift */; };
+		6416CF762639004A004DFA59 /* 动态数组.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6416CF742639004A004DFA59 /* 动态数组.swift */; };
+		6416CF772639004A004DFA59 /* 斐波那契数列.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6416CF752639004A004DFA59 /* 斐波那契数列.swift */; };
+		6417DC622638FF5600611765 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6417DC612638FF5600611765 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		6417DC412638FD0400611765 /* CopyFiles */ = {
+		6417DC5C2638FF5600611765 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -25,14 +25,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		6417DC432638FD0400611765 /* arithmetic */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = arithmetic; sourceTree = BUILT_PRODUCTS_DIR; };
-		6417DC462638FD0400611765 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		6417DC4E2638FD2B00611765 /* 斐波那契数列.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "斐波那契数列.swift"; sourceTree = "<group>"; };
-		6417DC4F2638FD2B00611765 /* 动态数组.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "动态数组.swift"; sourceTree = "<group>"; };
+		6416CF742639004A004DFA59 /* 动态数组.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "动态数组.swift"; sourceTree = "<group>"; };
+		6416CF752639004A004DFA59 /* 斐波那契数列.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "斐波那契数列.swift"; sourceTree = "<group>"; };
+		6417DC5E2638FF5600611765 /* 算法 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "算法"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6417DC612638FF5600611765 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6417DC402638FD0400611765 /* Frameworks */ = {
+		6417DC5B2638FF5600611765 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,67 +42,67 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6417DC3A2638FD0400611765 = {
+		6417DC552638FF5600611765 = {
 			isa = PBXGroup;
 			children = (
-				6417DC452638FD0400611765 /* arithmetic */,
-				6417DC442638FD0400611765 /* Products */,
+				6417DC602638FF5600611765 /* 算法 */,
+				6417DC5F2638FF5600611765 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		6417DC442638FD0400611765 /* Products */ = {
+		6417DC5F2638FF5600611765 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6417DC432638FD0400611765 /* arithmetic */,
+				6417DC5E2638FF5600611765 /* 算法 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6417DC452638FD0400611765 /* arithmetic */ = {
+		6417DC602638FF5600611765 /* 算法 */ = {
 			isa = PBXGroup;
 			children = (
-				6417DC4F2638FD2B00611765 /* 动态数组.swift */,
-				6417DC4E2638FD2B00611765 /* 斐波那契数列.swift */,
-				6417DC462638FD0400611765 /* main.swift */,
+				6417DC612638FF5600611765 /* main.swift */,
+				6416CF742639004A004DFA59 /* 动态数组.swift */,
+				6416CF752639004A004DFA59 /* 斐波那契数列.swift */,
 			);
-			path = arithmetic;
+			path = "算法";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6417DC422638FD0400611765 /* arithmetic */ = {
+		6417DC5D2638FF5600611765 /* 算法 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6417DC4A2638FD0400611765 /* Build configuration list for PBXNativeTarget "arithmetic" */;
+			buildConfigurationList = 6417DC652638FF5600611765 /* Build configuration list for PBXNativeTarget "算法" */;
 			buildPhases = (
-				6417DC3F2638FD0400611765 /* Sources */,
-				6417DC402638FD0400611765 /* Frameworks */,
-				6417DC412638FD0400611765 /* CopyFiles */,
+				6417DC5A2638FF5600611765 /* Sources */,
+				6417DC5B2638FF5600611765 /* Frameworks */,
+				6417DC5C2638FF5600611765 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = arithmetic;
-			productName = arithmetic;
-			productReference = 6417DC432638FD0400611765 /* arithmetic */;
+			name = "算法";
+			productName = "算法";
+			productReference = 6417DC5E2638FF5600611765 /* 算法 */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		6417DC3B2638FD0400611765 /* Project object */ = {
+		6417DC562638FF5600611765 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
-					6417DC422638FD0400611765 = {
+					6417DC5D2638FF5600611765 = {
 						CreatedOnToolsVersion = 12.4;
 					};
 				};
 			};
-			buildConfigurationList = 6417DC3E2638FD0400611765 /* Build configuration list for PBXProject "arithmetic" */;
+			buildConfigurationList = 6417DC592638FF5600611765 /* Build configuration list for PBXProject "算法" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,31 +110,31 @@
 				en,
 				Base,
 			);
-			mainGroup = 6417DC3A2638FD0400611765;
-			productRefGroup = 6417DC442638FD0400611765 /* Products */;
+			mainGroup = 6417DC552638FF5600611765;
+			productRefGroup = 6417DC5F2638FF5600611765 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6417DC422638FD0400611765 /* arithmetic */,
+				6417DC5D2638FF5600611765 /* 算法 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6417DC3F2638FD0400611765 /* Sources */ = {
+		6417DC5A2638FF5600611765 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6417DC502638FD2B00611765 /* 斐波那契数列.swift in Sources */,
-				6417DC472638FD0400611765 /* main.swift in Sources */,
-				6417DC512638FD2B00611765 /* 动态数组.swift in Sources */,
+				6416CF762639004A004DFA59 /* 动态数组.swift in Sources */,
+				6416CF772639004A004DFA59 /* 斐波那契数列.swift in Sources */,
+				6417DC622638FF5600611765 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		6417DC482638FD0400611765 /* Debug */ = {
+		6417DC632638FF5600611765 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -195,7 +195,7 @@
 			};
 			name = Debug;
 		};
-		6417DC492638FD0400611765 /* Release */ = {
+		6417DC642638FF5600611765 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -249,7 +249,7 @@
 			};
 			name = Release;
 		};
-		6417DC4B2638FD0400611765 /* Debug */ = {
+		6417DC662638FF5600611765 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -258,7 +258,7 @@
 			};
 			name = Debug;
 		};
-		6417DC4C2638FD0400611765 /* Release */ = {
+		6417DC672638FF5600611765 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -270,25 +270,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6417DC3E2638FD0400611765 /* Build configuration list for PBXProject "arithmetic" */ = {
+		6417DC592638FF5600611765 /* Build configuration list for PBXProject "算法" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6417DC482638FD0400611765 /* Debug */,
-				6417DC492638FD0400611765 /* Release */,
+				6417DC632638FF5600611765 /* Debug */,
+				6417DC642638FF5600611765 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6417DC4A2638FD0400611765 /* Build configuration list for PBXNativeTarget "arithmetic" */ = {
+		6417DC652638FF5600611765 /* Build configuration list for PBXNativeTarget "算法" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6417DC4B2638FD0400611765 /* Debug */,
-				6417DC4C2638FD0400611765 /* Release */,
+				6417DC662638FF5600611765 /* Debug */,
+				6417DC672638FF5600611765 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 6417DC3B2638FD0400611765 /* Project object */;
+	rootObject = 6417DC562638FF5600611765 /* Project object */;
 }
