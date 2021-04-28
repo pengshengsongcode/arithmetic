@@ -18,6 +18,7 @@
 		6416CF8C263901AA004DFA59 /* 237. 删除链表中的节点.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6416CF8B263901AA004DFA59 /* 237. 删除链表中的节点.swift */; };
 		6416CF8F263901E3004DFA59 /* 509. 斐波那契数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6416CF8E263901E3004DFA59 /* 509. 斐波那契数.swift */; };
 		6416CF91263901FD004DFA59 /* 剑指 Offer 18. 删除链表的节点.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6416CF90263901FD004DFA59 /* 剑指 Offer 18. 删除链表的节点.swift */; };
+		6416CF94263902A8004DFA59 /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6416CF93263902A8004DFA59 /* ListNode.swift */; };
 		6417DC622638FF5600611765 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6417DC612638FF5600611765 /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +46,7 @@
 		6416CF8B263901AA004DFA59 /* 237. 删除链表中的节点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "237. 删除链表中的节点.swift"; sourceTree = "<group>"; };
 		6416CF8E263901E3004DFA59 /* 509. 斐波那契数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "509. 斐波那契数.swift"; sourceTree = "<group>"; };
 		6416CF90263901FD004DFA59 /* 剑指 Offer 18. 删除链表的节点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指 Offer 18. 删除链表的节点.swift"; sourceTree = "<group>"; };
+		6416CF93263902A8004DFA59 /* ListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
 		6417DC5E2638FF5600611765 /* 算法 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "算法"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6417DC612638FF5600611765 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -108,6 +110,14 @@
 			path = "斐波那契数";
 			sourceTree = "<group>";
 		};
+		6416CF9226390291004DFA59 /* 工具 */ = {
+			isa = PBXGroup;
+			children = (
+				6416CF93263902A8004DFA59 /* ListNode.swift */,
+			);
+			path = "工具";
+			sourceTree = "<group>";
+		};
 		6417DC552638FF5600611765 = {
 			isa = PBXGroup;
 			children = (
@@ -128,6 +138,7 @@
 			isa = PBXGroup;
 			children = (
 				6417DC612638FF5600611765 /* main.swift */,
+				6416CF9226390291004DFA59 /* 工具 */,
 				6416CF7D263900D9004DFA59 /* Leetcode */,
 				6416CF7926390099004DFA59 /* 动态数组 */,
 				6416CF782639008A004DFA59 /* 斐波那契数列 */,
@@ -200,6 +211,7 @@
 				6416CF8A26390191004DFA59 /* 206. 反转链表.swift in Sources */,
 				6416CF762639004A004DFA59 /* 动态数组-数组.swift in Sources */,
 				6416CF772639004A004DFA59 /* 斐波那契数列.swift in Sources */,
+				6416CF94263902A8004DFA59 /* ListNode.swift in Sources */,
 				6417DC622638FF5600611765 /* main.swift in Sources */,
 				6416CF80263900FE004DFA59 /* 876. 链表的中间结点.swift in Sources */,
 				6416CF8626390163004DFA59 /* 141. 环形链表.swift in Sources */,
