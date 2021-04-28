@@ -127,10 +127,10 @@
 		6417DC602638FF5600611765 /* 算法 */ = {
 			isa = PBXGroup;
 			children = (
+				6417DC612638FF5600611765 /* main.swift */,
 				6416CF7D263900D9004DFA59 /* Leetcode */,
 				6416CF7926390099004DFA59 /* 动态数组 */,
 				6416CF782639008A004DFA59 /* 斐波那契数列 */,
-				6417DC612638FF5600611765 /* main.swift */,
 			);
 			path = "算法";
 			sourceTree = "<group>";
