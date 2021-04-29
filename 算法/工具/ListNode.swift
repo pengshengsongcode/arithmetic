@@ -33,6 +33,9 @@ extension ListNode {
             }
             node?.next = next
         }
+        
+        print("head = \(nodeList.first ?? nil)")
+        
         return nodeList.first ?? nil
     }
 }

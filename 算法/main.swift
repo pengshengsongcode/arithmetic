@@ -14,7 +14,8 @@ print("Hello, World!")
 //动态数组_链表()
 //链表的中间节点()
 //环形链表()
-移除链表元素()
+//移除链表元素()
+反转链表()
 
 func 动态数组_链表() {
     let list = LinkedList<Int>()
@@ -109,4 +110,8 @@ func 移除链表元素() {
     
     
 //    Solution1().middleNode(node1)
+}
+
+func 反转链表() {
+    print(Solution4().reverseList1(ListNode.create(intList: [1,2,3,4,5])))
 }
