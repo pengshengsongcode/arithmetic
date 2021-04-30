@@ -49,4 +49,20 @@ class Solution4 {
         
         return newHead
     }
+    /// 大佬思路 - 递归
+    func reverseList2(_ head: ListNode?) -> ListNode? {
+        if head?.next == nil {
+            return head
+        }
+        // last 永远是最后的一个
+        let last: ListNode? = reverseList(head?.next)
+//        print(last)
+        // head 为 4 3 2 1
+        //4.next.next -> 5.next = 4
+        head?.next?.next = head
+        //4.next = nil
+        head?.next = nil
+        return last
+    }
+    
 }

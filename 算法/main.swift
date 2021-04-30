@@ -113,5 +113,5 @@ func 移除链表元素() {
 }
 
 func 反转链表() {
-    print(Solution4().reverseList1(ListNode.create(intList: [1,2,3,4,5])))
+    print(Solution4().reverseList2(ListNode.create(intList: [1,2,3,4,5])))
 }
