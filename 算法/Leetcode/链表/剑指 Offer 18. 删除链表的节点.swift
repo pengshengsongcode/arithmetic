@@ -30,4 +30,21 @@ class Solution6 {
         return newHead.next
         
     }
+    
+    func deleteNode1(_ head: ListNode?, _ val: Int) -> ListNode? {
+        
+        let newHead = ListNode()
+        newHead.next = head
+        var move = newHead
+        
+        while let next = move.next {
+            if next.val == val {
+                move.next = next.next
+            }else {
+                move = next
+            }
+        }
+        return newHead.next
+    }
+    
 }

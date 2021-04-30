@@ -14,9 +14,10 @@ print("Hello, World!")
 //动态数组_链表()
 //链表的中间节点()
 //环形链表()
-//移除链表元素()
+移除链表元素()
 //反转链表()
-剑指删除链表的节点()
+//剑指删除链表的节点()
+//删除排序链表中的重复元素()
 
 func 动态数组_链表() {
     let list = LinkedList<Int>()
@@ -118,5 +119,11 @@ func 反转链表() {
 }
 
 func 剑指删除链表的节点() {
-    print(Solution6().deleteNode(ListNode.create(intList: [4, 5, 1, 9]), 5))
+    print(Solution6().deleteNode1(ListNode.create(intList: [1,1,1,1,1,1,1,1,2]), 1))
+}
+
+
+func 删除排序链表中的重复元素() {
+//    print(Solution7().deleteNode(ListNode.create(intList: [4, 5, 1, 9]), 5))
+    print(Solution7().deleteDuplicates(ListNode.create(intList: [-1,0,0,0,0,3,3])))
 }
