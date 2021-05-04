@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		6416CF762639004A004DFA59 /* 动态数组-数组.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6416CF742639004A004DFA59 /* 动态数组-数组.swift */; };
 		6416CF772639004A004DFA59 /* 斐波那契数列.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6416CF752639004A004DFA59 /* 斐波那契数列.swift */; };
-		6416CF7B263900BA004DFA59 /* 动态数组-链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6416CF7A263900BA004DFA59 /* 动态数组-链表.swift */; };
+		6416CF7B263900BA004DFA59 /* 动态数组-单向链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6416CF7A263900BA004DFA59 /* 动态数组-单向链表.swift */; };
 		6416CF80263900FE004DFA59 /* 876. 链表的中间结点.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6416CF7F263900FE004DFA59 /* 876. 链表的中间结点.swift */; };
 		6416CF8226390137004DFA59 /* 83. 删除排序链表中的重复元素.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6416CF8126390137004DFA59 /* 83. 删除排序链表中的重复元素.swift */; };
 		6416CF8626390163004DFA59 /* 141. 环形链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6416CF8526390163004DFA59 /* 141. 环形链表.swift */; };
@@ -20,6 +20,7 @@
 		6416CF91263901FD004DFA59 /* 剑指 Offer 18. 删除链表的节点.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6416CF90263901FD004DFA59 /* 剑指 Offer 18. 删除链表的节点.swift */; };
 		6416CF94263902A8004DFA59 /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6416CF93263902A8004DFA59 /* ListNode.swift */; };
 		6417DC622638FF5600611765 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6417DC612638FF5600611765 /* main.swift */; };
+		65CC05A8263E8810001B59CB /* 动态数组-双向链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65CC05A7263E8810001B59CB /* 动态数组-双向链表.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,7 +38,7 @@
 /* Begin PBXFileReference section */
 		6416CF742639004A004DFA59 /* 动态数组-数组.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "动态数组-数组.swift"; sourceTree = "<group>"; };
 		6416CF752639004A004DFA59 /* 斐波那契数列.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "斐波那契数列.swift"; sourceTree = "<group>"; };
-		6416CF7A263900BA004DFA59 /* 动态数组-链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "动态数组-链表.swift"; sourceTree = "<group>"; };
+		6416CF7A263900BA004DFA59 /* 动态数组-单向链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "动态数组-单向链表.swift"; sourceTree = "<group>"; };
 		6416CF7F263900FE004DFA59 /* 876. 链表的中间结点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "876. 链表的中间结点.swift"; sourceTree = "<group>"; };
 		6416CF8126390137004DFA59 /* 83. 删除排序链表中的重复元素.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "83. 删除排序链表中的重复元素.swift"; sourceTree = "<group>"; };
 		6416CF8526390163004DFA59 /* 141. 环形链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "141. 环形链表.swift"; sourceTree = "<group>"; };
@@ -49,6 +50,7 @@
 		6416CF93263902A8004DFA59 /* ListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
 		6417DC5E2638FF5600611765 /* 算法 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "算法"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6417DC612638FF5600611765 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		65CC05A7263E8810001B59CB /* 动态数组-双向链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "动态数组-双向链表.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +76,8 @@
 			isa = PBXGroup;
 			children = (
 				6416CF742639004A004DFA59 /* 动态数组-数组.swift */,
-				6416CF7A263900BA004DFA59 /* 动态数组-链表.swift */,
+				6416CF7A263900BA004DFA59 /* 动态数组-单向链表.swift */,
+				65CC05A7263E8810001B59CB /* 动态数组-双向链表.swift */,
 			);
 			path = "动态数组";
 			sourceTree = "<group>";
@@ -204,7 +207,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6416CF8F263901E3004DFA59 /* 509. 斐波那契数.swift in Sources */,
-				6416CF7B263900BA004DFA59 /* 动态数组-链表.swift in Sources */,
+				6416CF7B263900BA004DFA59 /* 动态数组-单向链表.swift in Sources */,
 				6416CF8226390137004DFA59 /* 83. 删除排序链表中的重复元素.swift in Sources */,
 				6416CF91263901FD004DFA59 /* 剑指 Offer 18. 删除链表的节点.swift in Sources */,
 				6416CF8C263901AA004DFA59 /* 237. 删除链表中的节点.swift in Sources */,
@@ -212,6 +215,7 @@
 				6416CF762639004A004DFA59 /* 动态数组-数组.swift in Sources */,
 				6416CF772639004A004DFA59 /* 斐波那契数列.swift in Sources */,
 				6416CF94263902A8004DFA59 /* ListNode.swift in Sources */,
+				65CC05A8263E8810001B59CB /* 动态数组-双向链表.swift in Sources */,
 				6417DC622638FF5600611765 /* main.swift in Sources */,
 				6416CF80263900FE004DFA59 /* 876. 链表的中间结点.swift in Sources */,
 				6416CF8626390163004DFA59 /* 141. 环形链表.swift in Sources */,
