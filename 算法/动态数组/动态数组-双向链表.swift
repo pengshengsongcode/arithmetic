@@ -192,14 +192,12 @@ class LinkedList1<Element: Equatable> {
         //FIXME: 是否需要清空所有的next pre？ - 需要
         if nomarlSize > 0 {
             var node = first
-            for i in (0...nomarlSize - 1) {
+            for _ in (0...nomarlSize - 1) {
+                let next = node?.next
                 node?.pre = nil
-                node = node?.next
+                node?.next  = nil
+                node = next
                 
-            }
-            for i in (0...nomarlSize - 1).reversed() {
-                node?.next = nil
-                node = node?.pre
             }
         }
         first = nil
